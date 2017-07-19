@@ -12,4 +12,4 @@
 　　Fragment在包路径下的ui下的fragment文件夹里面<br>
 　　其余的Contract、Model、Presenter分别在包路径下的mvp文件夹下<br>
 直接实现了一键创建mvp所需的activity presenter model contract layout这五个文件，并已完成了依赖，等操作，我们只需要在其中实现方法即可<br>
-对应的MVP框架地址--[ZXMVP](https://github.com/StannyBing/GHDW_MVP/tree/master) 
+对应的MVP框架地址--[ZXMVP](https://github.com/StannyBing/zxmvp) 
