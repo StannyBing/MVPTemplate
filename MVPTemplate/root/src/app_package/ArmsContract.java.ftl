@@ -1,5 +1,6 @@
 package ${contractPackageName};
 
+import com.frame.zxmvp.base.BasePresenter;
 import com.frame.zxmvp.base.IView;
 import com.frame.zxmvp.base.IModel;
 

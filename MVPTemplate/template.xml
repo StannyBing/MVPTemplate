@@ -61,7 +61,7 @@
         name="Ativity Package Name"
         type="string"
         constraints="package"
-        suggest="${packageName}.ui.activity"
+        suggest="${packageName}.ui"
         visibility="!needFragment"
         help="Activity 将被输出到此包下,请认真核实此包名是否是你需要输出的目标包名"
         />
@@ -93,7 +93,7 @@
         name="Fragment Package Name"
         type="string"
         constraints="package"
-        suggest="${packageName}.ui.fragment"
+        suggest="${packageName}.ui"
         visibility="needFragment"
         help="Fragment 将被输出到此包下,请认真核实此包名是否是你需要输出的目标包名"
         />  	

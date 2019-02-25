@@ -1,14 +1,10 @@
 package ${fragmentPackageName};
 
-import android.content.Intent;
 import android.os.Bundle;
-import android.view.LayoutInflater;
 import android.view.View;
-import android.view.ViewGroup;
 
 
 import ${contractPackageName}.${pageName}Contract;
-import ${contractPackageName}.${pageName}Contract.View;
 import ${presenterPackageName}.${pageName}Presenter;
 
 
@@ -23,6 +19,9 @@ public class ${pageName}Fragment extends BaseFragment<${pageName}Presenter, ${pa
 
     public static ${pageName}Fragment newInstance() {
         ${pageName}Fragment fragment = new ${pageName}Fragment();
+		Bundle bundle = new Bundle();
+        
+        fragment.setArguments(bundle);
         return fragment;
     }
 
@@ -32,7 +31,7 @@ public class ${pageName}Fragment extends BaseFragment<${pageName}Presenter, ${pa
     }
 	
     @Override
-    protected void initView() {
+    protected void initView(Bundle savedInstanceState) {
 
     }
 	

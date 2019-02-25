@@ -3,9 +3,9 @@ package ${ativityPackageName};
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
+import android.view.View;
 
 import ${contractPackageName}.${pageName}Contract;
-import ${contractPackageName}.${pageName}Contract.View;
 import ${presenterPackageName}.${pageName}Presenter;
 
 
@@ -27,7 +27,7 @@ public class ${pageName}Activity extends BaseActivity<${pageName}Presenter, ${pa
     }
 
     @Override
-    public void initView() {
+    public void initView(Bundle savedInstanceState) {
         
     }
 	
