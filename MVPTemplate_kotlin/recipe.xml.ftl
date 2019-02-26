@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <recipe>
 <#if !needFragment>
-    <#include "../common/recipe_manifest.xml.ftl" />
+	<merge from="root/AndroidManifest.xml.ftl"
+			to="${escapeXmlAttribute(manifestOut)}/AndroidManifest.xml"/>
 </#if>
 
 
