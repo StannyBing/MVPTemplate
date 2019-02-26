@@ -21,7 +21,7 @@ class ${pageName}Activity : BaseActivity<${pageName}Presenter, ${pageName}Model>
 		* 启动器
 		*/
         fun startAction(activity: Activity, isFinish: Boolean) {
-            val intent = Intent(activity, Test1Activity::class.java)
+            val intent = Intent(activity, ${pageName}Activity::class.java)
             activity.startActivity(intent)
             if (isFinish) activity.finish()
         }
