@@ -15,7 +15,7 @@ class ${pageName}Fragment : BaseFragment<${pageName}Presenter, ${pageName}Model>
 		/**
 		* 启动器
 		*/
-		fun newInstance(activity: Activity, isFinish: Boolean) : ${pageName}Fragment {
+		fun newInstance() : ${pageName}Fragment {
 			val fragment = ${pageName}Fragment()
 			val bundle = Bundle()
 			
