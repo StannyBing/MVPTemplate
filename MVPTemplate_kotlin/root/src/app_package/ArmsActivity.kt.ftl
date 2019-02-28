@@ -1,13 +1,13 @@
-package ${ativityPackageName};
+package ${ativityPackageName}
 
 import android.app.Activity
-import android.content.Intent;
-import android.os.Bundle;
-import android.view.View;
+import android.content.Intent
+import android.os.Bundle
+import android.view.View
 
-import ${contractPackageName}.${pageName}Contract;
-import ${modelPackageName}.${pageName}Model;
-import ${presenterPackageName}.${pageName}Presenter;
+import ${contractPackageName}.${pageName}Contract
+import ${modelPackageName}.${pageName}Model
+import ${presenterPackageName}.${pageName}Presenter
 
 
 /**
@@ -37,7 +37,7 @@ class ${pageName}Activity : BaseActivity<${pageName}Presenter, ${pageName}Model>
 	/**
      * 初始化
      */
-	override fun initView(savedInstanceState: Bundle) {
+	override fun initView(savedInstanceState: Bundle?) {
 
     }
 	

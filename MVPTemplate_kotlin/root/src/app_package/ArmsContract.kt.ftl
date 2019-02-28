@@ -1,8 +1,8 @@
-package ${contractPackageName};
+package ${contractPackageName}
 
-import com.frame.zxmvp.base.BasePresenter;
-import com.frame.zxmvp.base.IView;
-import com.frame.zxmvp.base.IModel;
+import com.frame.zxmvp.base.BasePresenter
+import com.frame.zxmvp.base.IView
+import com.frame.zxmvp.base.IModel
 
 /**
  * Create By admin On 2017/7/11
@@ -23,3 +23,4 @@ interface ${pageName}Contract {
         
     }
 }
+

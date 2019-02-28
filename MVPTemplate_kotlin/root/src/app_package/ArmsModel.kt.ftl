@@ -1,8 +1,8 @@
-package ${modelPackageName};
+package ${modelPackageName}
 
-import com.frame.zxmvp.base.BaseModel;
+import com.frame.zxmvp.base.BaseModel
 
-import ${contractPackageName}.${pageName}Contract;
+import ${contractPackageName}.${pageName}Contract
 
 /**
  * Create By admin On 2017/7/11

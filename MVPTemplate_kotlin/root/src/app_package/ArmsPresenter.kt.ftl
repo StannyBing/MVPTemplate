@@ -1,6 +1,6 @@
-package ${presenterPackageName};
+package ${presenterPackageName}
 
-import ${contractPackageName}.${pageName}Contract;
+import ${contractPackageName}.${pageName}Contract
 
 
 /**

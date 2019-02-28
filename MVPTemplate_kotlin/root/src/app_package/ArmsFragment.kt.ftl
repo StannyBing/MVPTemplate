@@ -1,10 +1,10 @@
-package ${fragmentPackageName};
+package ${fragmentPackageName}
 
-import android.os.Bundle;
-import android.view.View;
-import ${contractPackageName}.${pageName}Contract;
-import ${modelPackageName}.${pageName}Model;
-import ${presenterPackageName}.${pageName}Presenter;
+import android.os.Bundle
+import android.view.View
+import ${contractPackageName}.${pageName}Contract
+import ${modelPackageName}.${pageName}Model
+import ${presenterPackageName}.${pageName}Presenter
 
 /**
  * Create By admin On 2017/7/11
@@ -34,7 +34,7 @@ class ${pageName}Fragment : BaseFragment<${pageName}Presenter, ${pageName}Model>
 	/**
      * 初始化
      */
-	override fun initView(savedInstanceState: Bundle) {
+	override fun initView(savedInstanceState: Bundle?) {
 
     }
 	
