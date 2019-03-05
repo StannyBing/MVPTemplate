@@ -44,7 +44,7 @@ class ${pageName}Activity : BaseActivity<${pageName}Presenter, ${pageName}Model>
 	/**
      * 点击事件
      */
-	fun onViewClicked(view: View) {
+	override fun onViewClick() {
 
     }
 	
